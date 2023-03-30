@@ -13,6 +13,7 @@
 		
 		if (mid.equals("black") && mpw.equals("12345")){
 			session.setAttribute("sessionId", mid);
+			session.setMaxInactiveInterval(10); // 세션의 유효시간을 10분으로 설정
 			response.sendRedirect("loginCheck.jsp"); // 로드인 성공시 loginCheck 로 바로 이동
 		} else {
 			response.sendRedirect("login.jsp");	// 로그인 실패하면 login.jsp 바로 이동
