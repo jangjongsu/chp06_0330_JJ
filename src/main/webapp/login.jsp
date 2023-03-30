@@ -13,6 +13,6 @@
 		아이디 : <input type="text" name="memberId"><br><br>
 		비밀번호 : <input type="password" name="memberPw"><br><br>
 		<input type="submit" value ="로그인">
-	</form>
+	</form> 
 </body>
 </html>
